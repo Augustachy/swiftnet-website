@@ -62,8 +62,8 @@ cursor: pointer;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background:   linear-gradient(rgba(1,0,0,0.6));
-    height: 70vh;
+       background: linear-gradient(to top, var(--bg2), var(--bg));
+    height: 85vh;
    gap: 20px;
    padding: 50px;
   
@@ -181,12 +181,15 @@ footer{
   header{
     flex-direction: column;
    align-items: start;
+   align-items: start;
+   gap: 20px;
 
   }
   .nav-items{
     flex-direction: column;
     gap: 10px;
     padding-top: 10px;
+    align-items: start;
   }
 .hero p{
     width: 100%;
