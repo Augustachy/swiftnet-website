@@ -138,12 +138,14 @@ margin: 20PX 20PX 20PX;
     background-color:#ffff;
     overflow: hidden;
     border-radius: 10px;
-   
     width: 300px;
     padding: 20px;
-    margin: 20px;
-    color:  #0b2e33;  
+    color:  #0b2e33;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     gap: 10px;
+    align-items: start;
+    align-content: start;
+    justify-content: left;
 }
 
 
@@ -190,6 +192,9 @@ footer{
     gap: 10px;
     padding-top: 10px;
     align-items: start;
+  }
+  .hero h1{
+    font-size:32px ;
   }
 .hero p{
     width: 100%;
